@@ -667,8 +667,8 @@ elif page == "📋 About This Project":
 
     ### About the Author
 
-    **[Your Name]**
-    - Background in [your background]
+    **Nitin Madagi**
+    - Background in Quantitative Risk Analysis, Market Risk, and Data Engineering
     - Passionate about leveraging data and technology to strengthen risk management
-    - [LinkedIn] | [GitHub]
+    - [LinkedIn](https://www.linkedin.com/in/nmadagi) | [GitHub](https://github.com/nmadagi)
     """)

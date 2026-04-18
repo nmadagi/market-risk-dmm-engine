@@ -18,7 +18,7 @@ This project demonstrates the core responsibilities of a **Data Management & Mai
 
 ## 📊 Live Demo
 
-🔗 **[View Live Application](https://your-app-url.streamlit.app)**
+🔗 **[View Live Application](https://market-risk-dmm-engine-bjqhprajwdnrwtkdorxiaq.streamlit.app)**
 
 ---
 
@@ -178,7 +178,7 @@ wells-fargo-dmm-project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/market-risk-dmm-engine.git
+git clone https://github.com/nmadagi/market-risk-dmm-engine.git
 cd market-risk-dmm-engine
 
 # Install dependencies
@@ -213,6 +213,7 @@ This project is built for educational and interview demonstration purposes.
 
 ---
 
-**Author:** [Your Name]  
-**LinkedIn:** [Your LinkedIn]  
+**Author:** Nitin Madagi  
+**Background:** Quantitative Risk Analysis, Market Risk, and Data Engineering  
+**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/nmadagi) | **GitHub:** [GitHub](https://github.com/nmadagi)  
 **Built for:** Wells Fargo — Lead Market Risk Officer, DMM Team
