@@ -667,8 +667,7 @@ elif page == "📋 About This Project":
 
     ### About the Author
 
-    **Nitin Madagi**
-    - Background in Quantitative Risk Analysis, Market Risk, and Data Engineering
-    - Passionate about leveraging data and technology to strengthen risk management
-    - [LinkedIn](https://www.linkedin.com/in/nmadagi) | [GitHub](https://github.com/nmadagi)
+    **Nitin Madagi** | MS Finance, SUNY Buffalo
+    Quantitative Risk & Analytics Professional
+    [LinkedIn](https://www.linkedin.com/in/nitinmadagi/) | [GitHub](https://github.com/nmadagi) | [Portfolio](https://nmadagi.github.io/portfolio/)
     """)

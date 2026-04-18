@@ -213,7 +213,7 @@ This project is built for educational and interview demonstration purposes.
 
 ---
 
-**Author:** Nitin Madagi  
-**Background:** Quantitative Risk Analysis, Market Risk, and Data Engineering  
-**LinkedIn:** [LinkedIn](https://www.linkedin.com/in/nmadagi) | **GitHub:** [GitHub](https://github.com/nmadagi)  
+**Author:** Nitin Madagi | MS Finance, SUNY Buffalo
+**Portfolio:** [nmadagi.github.io/portfolio](https://nmadagi.github.io/portfolio/)
+**LinkedIn:** [linkedin.com/in/nitinmadagi](https://www.linkedin.com/in/nitinmadagi/)
 **Built for:** Wells Fargo — Lead Market Risk Officer, DMM Team
