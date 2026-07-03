@@ -1,7 +1,7 @@
 """
 SQL Query Library for Market Risk Data Management & Maintenance
 Demonstrates production-grade SQL for data sourcing, validation, and risk reporting.
-Each query maps to a real DMM responsibility at Wells Fargo MCRM.
+Each query reflects a typical DMM responsibility in market risk data management.
 """
 
 # ─── 1. DATA SOURCING QUERIES ────────────────────────────────────────────────

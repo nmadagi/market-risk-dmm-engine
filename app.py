@@ -4,7 +4,7 @@ Market Risk Data Management & Validation Engine
 A comprehensive data quality management platform for Market & Counterparty Risk Management (MCRM).
 Demonstrates: Data Sourcing, Validation, ML Anomaly Detection, SQL Expertise, and Risk Reporting.
 
-Built for: Wells Fargo Lead Market Risk Officer - DMM Team Interview
+A portfolio project demonstrating market risk data management (DMM) capabilities.
 """
 
 import streamlit as st
@@ -134,9 +134,9 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #8B8FA3; font-size: 0.75rem;'>
-        Built for Wells Fargo<br>
-        Lead Market Risk Officer<br>
-        DMM Team Interview
+        Market Risk DMM Engine<br>
+        Data Quality & Validation<br>
+        Portfolio Project
     </div>
     """, unsafe_allow_html=True)
 
@@ -603,13 +603,13 @@ elif page == "📋 About This Project":
     ### Project Overview
 
     This application demonstrates end-to-end capabilities in **Market Risk Data Management & Maintenance (DMM)**,
-    aligned with the responsibilities of the MCRM team at Wells Fargo.
+    reflecting typical responsibilities of Market & Counterparty Risk Management (MCRM) teams at large banks.
 
     ---
 
-    ### How This Maps to the Role
+    ### Capability Mapping
 
-    | Job Responsibility | Project Implementation |
+    | DMM Capability | Project Implementation |
     |---|---|
     | Sourcing, validating, maintaining risk data | Complete data pipeline with 150 instruments, 37K+ market data records |
     | Data and reporting solutions | Interactive Streamlit dashboard with 6 report types |
