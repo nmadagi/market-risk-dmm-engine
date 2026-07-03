@@ -4,6 +4,8 @@ A comprehensive data quality management platform for **Market & Counterparty Ris
 
 ---
 
+![Dashboard](docs/dashboard.png)
+
 ## 🎯 Project Purpose
 
 This project demonstrates the core responsibilities of a **Data Management & Maintenance (DMM)** team within a financial institution's market risk function:
