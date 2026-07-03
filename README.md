@@ -158,7 +158,7 @@ wells-fargo-dmm-project/
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # This file
 ├── .streamlit/
-│   └── config.toml             # Wells Fargo red/gold theme
+│   └── config.toml             # Custom red/gold dashboard theme
 ├── data/
 │   ├── __init__.py
 │   ├── generate_data.py        # Synthetic market risk data generator
@@ -192,9 +192,9 @@ The database and ML model are generated automatically on first launch — no man
 
 ---
 
-## 🔗 Role Alignment
+## 🔗 Capability Mapping
 
-| Wells Fargo DMM Responsibility | Project Implementation |
+| Market Risk Data Management Capability | Project Implementation |
 |---|---|
 | Sourcing, validating, maintaining risk data | Full data pipeline: 150 instruments, 37K+ records, 5 asset classes |
 | Deliver data and reporting solutions | 6-page interactive dashboard with drill-down capabilities |
@@ -209,11 +209,10 @@ The database and ML model are generated automatically on first launch — no man
 
 ## 📄 License
 
-This project is built for educational and interview demonstration purposes.
+This project is licensed under the [MIT License](LICENSE). Built for educational and demonstration purposes.
 
 ---
 
 **Author:** Nitin Madagi | MS Finance, SUNY Buffalo
 **Portfolio:** [nmadagi.github.io/portfolio](https://nmadagi.github.io/portfolio/)
 **LinkedIn:** [linkedin.com/in/nitinmadagi](https://www.linkedin.com/in/nitinmadagi/)
-**Built for:** Wells Fargo — Lead Market Risk Officer, DMM Team
