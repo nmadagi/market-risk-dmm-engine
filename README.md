@@ -1,4 +1,4 @@
-# 🏦 Market Risk Data Management & Validation Engine
+# Market Risk Data Management & Validation Engine
 
 A comprehensive data quality management platform for **Market & Counterparty Risk Management (MCRM)**, demonstrating end-to-end capabilities in data sourcing, validation, ML-powered anomaly detection, and risk reporting.
 
@@ -6,25 +6,25 @@ A comprehensive data quality management platform for **Market & Counterparty Ris
 
 ![Dashboard](docs/dashboard.png)
 
-## 🎯 Project Purpose
+## Project Purpose
 
 This project demonstrates the core responsibilities of a **Data Management & Maintenance (DMM)** team within a financial institution's market risk function:
 
-- **Data Sourcing** — Ingesting market data from multiple sources (Bloomberg, Reuters, MarkIT, ICE)
-- **Data Validation** — Automated quality checks using SQL and ML models
-- **Data Maintenance** — Issue tracking, remediation workflows, and control frameworks
-- **Risk Reporting** — VaR, Greeks, P&L, capital charges, and limit monitoring
-- **Regulatory Compliance** — Basel III/IV capital calculations, data completeness monitoring
+- **Data Sourcing** - Ingesting market data from multiple sources (Bloomberg, Reuters, MarkIT, ICE)
+- **Data Validation** - Automated quality checks using SQL and ML models
+- **Data Maintenance** - Issue tracking, remediation workflows, and control frameworks
+- **Risk Reporting** - VaR, Greeks, P&L, capital charges, and limit monitoring
+- **Regulatory Compliance** - Basel III/IV capital calculations, data completeness monitoring
 
 ---
 
-## 📊 Live Demo
+## Live Demo
 
-🔗 **[View Live Application](https://market-risk-dmm-engine-bjqhprajwdnrwtkdorxiaq.streamlit.app)**
+**[View Live Application](https://market-risk-dmm-engine-bjqhprajwdnrwtkdorxiaq.streamlit.app)**
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 Data Sources (Bloomberg, Reuters, MarkIT, ICE, Internal)
@@ -58,7 +58,7 @@ Data Sources (Bloomberg, Reuters, MarkIT, ICE, Internal)
 
 ---
 
-## 🤖 ML Anomaly Detection — 3-Layer Ensemble
+## ML Anomaly Detection - 3-Layer Ensemble
 
 ### Layer 1: Isolation Forest (Unsupervised ML)
 - 200 decision tree estimators with auto-sampling
@@ -85,7 +85,7 @@ Each layer covers a different gap:
 
 ---
 
-## 📝 SQL Query Library — 9 Production Queries
+## SQL Query Library - 9 Production Queries
 
 | # | Query | Category | Key SQL Techniques |
 |---|-------|----------|-------------------|
@@ -101,7 +101,7 @@ Each layer covers a different gap:
 
 ---
 
-## 📈 Dashboard Pages
+## Dashboard Pages
 
 ### 1. Executive Dashboard
 - KPI cards: Active Positions, Total VaR, Daily P&L, Data Quality Score, Critical Issues
@@ -110,14 +110,14 @@ Each layer covers a different gap:
 - P&L distribution by asset class (box plot)
 
 ### 2. Data Quality Monitor
-- **Quality Trends** — Severity-coded area chart over time
-- **Issue Drill-Down** — Filterable table with severity, status, detection method
-- **Completeness** — Expected vs actual records, error rate overlay
+- **Quality Trends** - Severity-coded area chart over time
+- **Issue Drill-Down** - Filterable table with severity, status, detection method
+- **Completeness** - Expected vs actual records, error rate overlay
 
 ### 3. ML Anomaly Detection
-- **Detection Results** — Real-time scan with severity and issue type breakdowns
-- **Model Performance** — Precision, Recall, F1-Score, Confusion Matrix
-- **Architecture** — Visual breakdown of the 3-layer ensemble approach
+- **Detection Results** - Real-time scan with severity and issue type breakdowns
+- **Model Performance** - Precision, Recall, F1-Score, Confusion Matrix
+- **Architecture** - Visual breakdown of the 3-layer ensemble approach
 
 ### 4. SQL Query Lab
 - Pre-built query selector with category grouping
@@ -138,7 +138,7 @@ Each layer covers a different gap:
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 | Component | Technology |
 |-----------|-----------|
@@ -152,7 +152,7 @@ Each layer covers a different gap:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 wells-fargo-dmm-project/
@@ -176,7 +176,7 @@ wells-fargo-dmm-project/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ```bash
 # Clone the repository
@@ -190,11 +190,11 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-The database and ML model are generated automatically on first launch — no manual setup required.
+The database and ML model are generated automatically on first launch - no manual setup required.
 
 ---
 
-## 🔗 Capability Mapping
+## Capability Mapping
 
 | Market Risk Data Management Capability | Project Implementation |
 |---|---|
@@ -209,7 +209,7 @@ The database and ML model are generated automatically on first launch — no man
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE). Built for educational and demonstration purposes.
 

@@ -25,7 +25,6 @@ from models.anomaly_detector import MarketDataAnomalyDetector
 # ── Page Config ───────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="MCRM Data Management Engine",
-    page_icon="🏦",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -108,18 +107,18 @@ def get_available_dates():
 
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
-    st.markdown("## 🏦 MCRM DMM Engine")
+    st.markdown("## MCRM DMM Engine")
     st.markdown("---")
 
     page = st.radio(
         "Navigation",
         [
-            "📊 Executive Dashboard",
-            "🔍 Data Quality Monitor",
-            "🤖 ML Anomaly Detection",
-            "📝 SQL Query Lab",
-            "⚠️ Risk & Limits",
-            "📋 About This Project"
+            "Executive Dashboard",
+            "Data Quality Monitor",
+            "ML Anomaly Detection",
+            "SQL Query Lab",
+            "Risk & Limits",
+            "About This Project"
         ],
         index=0
     )
@@ -144,9 +143,9 @@ with st.sidebar:
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE 1: Executive Dashboard
 # ═══════════════════════════════════════════════════════════════════════════════
-if page == "📊 Executive Dashboard":
+if page == "Executive Dashboard":
     st.markdown('<p class="main-header">Market Risk Data Management Dashboard</p>', unsafe_allow_html=True)
-    st.markdown('<p class="sub-header">Data Management & Maintenance (DMM) — Daily Overview</p>', unsafe_allow_html=True)
+    st.markdown('<p class="sub-header">Data Management & Maintenance (DMM) - Daily Overview</p>', unsafe_allow_html=True)
 
     if selected_date:
         risk_data = run_query("SELECT * FROM risk_metrics WHERE date = ?", (selected_date,))
@@ -226,11 +225,11 @@ if page == "📊 Executive Dashboard":
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE 2: Data Quality Monitor
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "🔍 Data Quality Monitor":
+elif page == "Data Quality Monitor":
     st.markdown('<p class="main-header">Data Quality Monitor</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Sourcing, Validating & Maintaining Market Risk Data</p>', unsafe_allow_html=True)
 
-    tab1, tab2, tab3 = st.tabs(["📈 Quality Trends", "🔎 Issue Drill-Down", "📊 Completeness"])
+    tab1, tab2, tab3 = st.tabs(["Quality Trends", "Issue Drill-Down", "Completeness"])
 
     with tab1:
         dq_trend = run_query("""
@@ -305,11 +304,11 @@ elif page == "🔍 Data Quality Monitor":
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE 3: ML Anomaly Detection
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "🤖 ML Anomaly Detection":
+elif page == "ML Anomaly Detection":
     st.markdown('<p class="main-header">ML-Powered Anomaly Detection</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Isolation Forest + Rule-Based Ensemble for Data Quality Validation</p>', unsafe_allow_html=True)
 
-    tab1, tab2, tab3 = st.tabs(["🎯 Detection Results", "📊 Model Performance", "⚙️ Model Architecture"])
+    tab1, tab2, tab3 = st.tabs(["Detection Results", "Model Performance", "Model Architecture"])
 
     with tab1:
         with st.spinner("Loading ML model and running detection..."):
@@ -428,7 +427,7 @@ elif page == "🤖 ML Anomaly Detection":
         col1, col2, col3 = st.columns(3)
         with col1:
             st.markdown("""
-            **🧠 Layer 1: Isolation Forest (ML)**
+            **Layer 1: Isolation Forest (ML)**
             - Unsupervised anomaly detection
             - 200 estimators, auto-sampling
             - Catches novel/unknown patterns
@@ -436,7 +435,7 @@ elif page == "🤖 ML Anomaly Detection":
             """)
         with col2:
             st.markdown("""
-            **📏 Layer 2: Rule-Based Engine**
+            **Layer 2: Rule-Based Engine**
             - Domain knowledge codified
             - Negative prices
             - Crossed bid/ask markets
@@ -446,7 +445,7 @@ elif page == "🤖 ML Anomaly Detection":
             """)
         with col3:
             st.markdown("""
-            **📊 Layer 3: Statistical Tests**
+            **Layer 3: Statistical Tests**
             - Z-score threshold (> 3 sigma)
             - IQR-based outlier detection
             - Rolling window analysis
@@ -463,7 +462,7 @@ elif page == "🤖 ML Anomaly Detection":
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE 4: SQL Query Lab
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "📝 SQL Query Lab":
+elif page == "SQL Query Lab":
     st.markdown('<p class="main-header">SQL Query Lab</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Production SQL Queries for Market Risk Data Management</p>', unsafe_allow_html=True)
 
@@ -530,11 +529,11 @@ elif page == "📝 SQL Query Lab":
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE 5: Risk & Limits
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "⚠️ Risk & Limits":
+elif page == "Risk & Limits":
     st.markdown('<p class="main-header">Risk Limits & Capital</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Limit Monitoring, Breach Reporting & Capital Charges</p>', unsafe_allow_html=True)
 
-    tab1, tab2 = st.tabs(["🚨 Limit Breaches", "💰 Capital Charges"])
+    tab1, tab2 = st.tabs(["Limit Breaches", "Capital Charges"])
 
     with tab1:
         if selected_date:
@@ -595,7 +594,7 @@ elif page == "⚠️ Risk & Limits":
 # ═══════════════════════════════════════════════════════════════════════════════
 # PAGE 6: About
 # ═══════════════════════════════════════════════════════════════════════════════
-elif page == "📋 About This Project":
+elif page == "About This Project":
     st.markdown('<p class="main-header">About This Project</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Market Risk Data Management & Validation Engine</p>', unsafe_allow_html=True)
 
